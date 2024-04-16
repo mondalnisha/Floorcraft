@@ -1953,6 +1953,9 @@ a:hover {
         width: 200px;
         height: auto;
     }
+    .header-search .search-field {
+        position: relative;
+    }
     .bannar-overlay {
         padding: 100px 0 80px;
     }
@@ -2501,6 +2504,9 @@ a:hover {
 @media (max-width: 575px) {
     .header-tp-over-contact ul li span {
         font-size: 0.7rem;
+    }
+    .header-search .search-field {
+        margin: 9px 0;
     }
     .bannar-overlay-content .bannar-content-tp {
         margin-bottom: 1.3rem;
