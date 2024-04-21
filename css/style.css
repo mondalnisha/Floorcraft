@@ -321,13 +321,13 @@ a:hover {
     position: absolute;
     bottom: -60px;
     left: -135px;
-    opacity: 0;
+    display: none;
 }
 .header-search .search-field::placeholder {
     color: #000000;
 }
-.header-search .search-field:focus {
-    opacity: 1;
+.header-search ..active-search {
+    display: block;
     background-color: #ffffff;
     outline: none;
     border: 1px solid #000000;
