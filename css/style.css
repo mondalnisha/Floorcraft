@@ -2509,6 +2509,10 @@ a:hover {
     }
     .header-search .search-field {
         margin: 9px 0;
+        display: none;
+    }
+    .header-search .active-search {
+        display: block;
     }
     .bannar-overlay-content .bannar-content-tp {
         margin-bottom: 1.3rem;
